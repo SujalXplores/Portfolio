@@ -725,6 +725,7 @@ html {
   animation-fill-mode: forwards;
   animation-duration: 0.85s;
 }
+
 @keyframes likeAnimation {
   0% {
     transform: scale(1.5);
@@ -752,6 +753,13 @@ html {
   background-color: #a24dd386 !important;
   border-color: #a24dd386 !important;
 }
+
 .fork-btn-inner::after {
   display: none !important;
+}
+
+.react-pdf__Document {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
