@@ -1,10 +1,9 @@
 import { Container, Row, Col } from 'react-bootstrap';
-// import Lottie from 'react-lottie';
+import Lottie from 'react-lottie-player/dist/LottiePlayerLight';
 import animationData from '../../assets/home-programmer.json';
 import Particle from '../Particle';
 import Home2 from './Home2';
 import Type from './Type';
-import Lottie from 'react-lottie-player/dist/LottiePlayerLight';
 
 function Home() {
   return (
